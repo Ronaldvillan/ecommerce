@@ -1,7 +1,7 @@
 const createNav = () => {
-    let nav = document.querySelector('.navbar');
-    
-    nav.innerHTML = `
+  let nav = document.querySelector(".navbar");
+
+  nav.innerHTML = `
     <div class="nav">
     <img src="img/Fashion Logo.png" class="brand-logo" alt="">
     <div class="nav-items">
@@ -14,14 +14,13 @@ const createNav = () => {
     </div>
 </div>
 <ul class="links-container">
-  <li class="link-item"><a href="#" class="link">Inicio</a><li>
-  <li class="link-item"><a href="#" class="link">Mujer</a></li>
-  <li class="link-item"><a href="#" class="link">Hombre</a></li>
-  <li class="link-item"><a href="#" class="link">Niños</a></li>
-  <li class="link-item"><a href="#" class="link">Accesorios</a></li>
+  <li class="link-item"><a href="index.html" class="link">Inicio</a><li>
+  <li class="link-item"><a href="women.html" class="link">Mujer</a></li>
+  <li class="link-item"><a href="men.html" class="link">Hombre</a></li>
+  <li class="link-item"><a href="contacto.html" class="link">Contacto</a></li>
+ 
 </ul>
     `;
-}    
+};
 
 createNav();
-
